@@ -55,5 +55,11 @@
 //   }
 
 
-let name = prompt("Как вас зовут?", "Имя");
-alert(`Привет ${name}`);
+// Создать страницу, которая спрашивает имя у пользователя и выводит его с помощью функции.
+
+
+function show_text(user_name){
+    alert(`Привет, ${user_name}`);
+}
+let user_name = prompt("Как вас зовут?", "Имя");
+show_text(user_name);
